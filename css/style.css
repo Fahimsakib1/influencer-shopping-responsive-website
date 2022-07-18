@@ -311,7 +311,7 @@ span{
     color: white;
  }
 
- .fa-facebook,  .fa-instagram, .fa-twitter, .fa-youtube  {
+ .fa-facebook,  .fa-instagram, .fa-dribbble, .fa-twitter, .fa-youtube  {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 7px;
@@ -326,6 +326,10 @@ span{
 
  .fa-instagram:hover{
     color: #E4405F;
+ }
+
+ .fa-dribbble:hover{
+    color: #EA4C89;
  }
 
  .fa-twitter:hover{
