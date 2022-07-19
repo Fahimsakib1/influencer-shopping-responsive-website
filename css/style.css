@@ -16,7 +16,8 @@ body{
 }
 
 .logo h2{
-    margin-left: -120px;
+    /* margin-left: -120px; */
+    margin-left: -70px;
     margin-top: 25px;
 } 
 
@@ -60,6 +61,16 @@ body{
 
 }
 
+.top-section-second-paragraph{
+    display: none;
+
+}
+
+
+.top-section-span{
+    color: black;
+}
+
 .top-section-div1{
     width: 50%;
     margin-top: 50px;
@@ -85,7 +96,7 @@ body{
 
 .top-section-button{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 17px;
     border-radius: 30px;
     background-color: #E02C6D;
     color: white;
@@ -115,7 +126,8 @@ body{
     justify-content: center;
     width: 1110px;
     height: 110px;
-    margin-left: 165px;
+    /* margin-left: 165px; */
+    margin-left: 105px;
     margin-top: 40px;
     margin-bottom: 100px;
 
@@ -212,7 +224,8 @@ span{
     color: #E02C6D;
     font-size: 18px;
     font-weight: 700;
-    margin-left: 1195px;
+    /* margin-left: 1195px; */
+    margin-left: 1125px;
 }
 
 .see-more-div{
@@ -236,21 +249,30 @@ span{
 .bottom-section-div1 img{
     width: 424px;
     height: 290px;
+    margin-left: -40px;
 }
 
 .bottom-section-div2{
     width: 60%;
-    margin-left: -10px;
+    margin-left: 35px;
 }
 
-.bottom-section-div2 h1{
+.bottom-section-div2 .bottom-section-first-h1{
    font-size: 38px;
+}
+
+.bottom-section-second-h1{
+    display: none;
 }
 
 .bottom-section-div2 p{
     font-size: 16px;
     font-weight: 800;
     color:#6C6C6C;
+ }
+
+ .bottom-section-second-p{
+    display: none;
  }
 
  .bottom-section-button{
@@ -266,7 +288,6 @@ span{
     padding-bottom: 12px;
 
  }
-
 
  .bottom-section-button:hover{
 
@@ -340,3 +361,218 @@ span{
     color: #CD201F;
  }
 
+
+
+
+/* Responsive Website Mobile View CSS Starts From Here */
+
+@media only screen and (max-width:688px) {
+    
+    
+    .nav-bar-section h2{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: -110px;
+        font-size: 20px;
+        padding-top: 6px;
+    }
+
+    nav #cart{
+        margin-left: -250px;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    nav #search{
+        display: none;
+    }
+
+    .top-section{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+
+    .top-section img{
+        
+        justify-content: center;
+        width: 330px;
+        height: 300px;
+        border-radius: 50px;
+        margin-left: -100px;
+        margin-top: -20px;
+    }
+
+    .top-section h1{
+        font-size: 27px;
+        margin-left: -90px;
+    
+    }
+
+    .top-section-span{
+        margin-left: 80px;
+    }
+
+    .top-section-div1 .top-section-paragraph{
+        /* margin-left: -90px;
+        font-size: 14px;
+        margin-top: 0px; */
+        display: none;
+    }
+
+    .top-section-div1 .top-section-second-paragraph{
+        display: block;
+        margin-left: -80px;
+        font-size: 14px;
+        margin-top:-5px;
+    }
+
+
+    .top-section-button{
+        margin-left: -50px;
+        font-size: 18px;
+        width: 194px;
+        height: 44px;
+    }
+
+    .brand-name-section{
+        /* width: 276px;
+        height: 62px; */
+        width: 360px;
+        margin-left: -19px;
+    }
+
+    .brand-name-section img{
+        width: 40px;
+        height: 19px;
+        margin-top: 25px;
+    }
+
+    #alibaba{
+        padding-left: 25px;
+        padding-right: 0px;
+    }
+
+    #amazon{
+        padding-left: 30px;
+        padding-right: 5px;
+        margin-top: 10px;
+    }
+
+    #rakuten{
+        margin-left: 30px;
+    }
+
+    .photo-gallary-section-title{
+        font-size: 20px;
+        margin-top: -30px;
+        margin-left: -340px;
+    }
+
+    .individual-photoes{
+        width: 260px;
+        height: 435px;
+        margin-top: 0px;
+    }
+
+    .photo-album{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 0px;
+        margin-left: -340px;
+    }
+
+    .photo-album img{
+        width: 230px;
+        height: 200px;
+    }
+
+    .see-more-div{
+        margin-top: -20px;
+    }
+
+    .see-more{
+        margin-left: 175px;
+    }
+
+
+    .bottom-section{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .bottom-section .bottom-section-first-h1{
+        display: none;
+    }
+
+    .bottom-section .bottom-section-second-h1{
+        display: block;
+        margin-left: -172px;
+        font-size: 22px;
+        margin-top: -30px;
+    }
+
+    .bottom-section-span{
+        color:black;
+        margin-left: 100px;
+    }
+
+    /* .bottom-section-div2 p{
+        margin-left: -170px;
+        font-size: 16px;
+    } */
+
+    .bottom-section-first-p{
+        display: none;
+    }
+
+
+    .bottom-section-second-p{
+        display: block;
+        margin-left: -160px;
+        font-size: 15px;
+    }
+
+
+    .bottom-section-button{
+        margin-left: -110px;
+        font-size: 16px;
+        width: 154px;
+        height: 44px;
+        margin-bottom: 10px;
+    }
+
+    .bottom-section img{
+        width: 270px;
+        height: 144px;
+        border-radius: 15px;
+        margin-left: -180px;
+        margin-top: 20px;
+    }
+
+    .footer-section{
+        width: 380px;
+        height: 211px;
+    }
+
+    .copyright{
+        margin-left: -60px;
+        font-size: 16px;
+
+    }
+
+    .copyright h2{
+        margin-top: 0px;
+    }
+
+    .social-media{
+        margin-left: -50px;
+        font-size: 20px;
+        
+    }
+
+  
+}
